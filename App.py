@@ -128,7 +128,7 @@ def run():
                     st.markdown('IMDB Rating: ' + str(ratings) + '⭐')
     elif cat_op == category[2]:
         sel_gen = st.multiselect('Select Genres:', genres)
-        dec = st.radio("Want to Fetch Movie Poster?", ('Yes', 'No'))
+        # dec = st.radio("Want to Fetch Movie Poster?", ('Yes', 'No'))
         st.markdown(
             '''<h4 style='text-align: left; color: #d73b5c;'>* Fetching a Movie Posters will take a time."</h4>''',
             unsafe_allow_html=True)
