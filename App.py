@@ -81,7 +81,7 @@ def run():
     elif cat_op == category[1]:
         select_movie = st.selectbox('Select movie: (Recommendation will be based on this selection)',
                                     ['--Select--'] + movies)
-        dec = st.radio("Want to know Movie Names?", ('Yes'))
+        dec = st.radio("Want to know Movie Names?",('Yes'))
         st.markdown(
             '''<h4 style='text-align: left; color: #d73b5c;'>* Fetching a Movie Posters will take a time."</h4>''',
             unsafe_allow_html=True)
