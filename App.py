@@ -82,9 +82,9 @@ def run():
         select_movie = st.selectbox('Select movie: (Recommendation will be based on this selection)',
                                     ['--Select--'] + movies)
         dec = st.text("Want to know Movie Names?")
-        st.markdown(
-            '''<h4 style='text-align: left; color: #d73b5c;'>* Fetching a Movie Posters will take a time."</h4>''',
-            unsafe_allow_html=True)
+        #st.markdown(
+            #'''<h4 style='text-align: left; color: #d73b5c;'>* Fetching a Movie Posters will take a time."</h4>''',
+            #unsafe_allow_html=True)
         if dec == 'No':
             if select_movie == '--Select--':
                 st.warning('Please select Movie!!')
